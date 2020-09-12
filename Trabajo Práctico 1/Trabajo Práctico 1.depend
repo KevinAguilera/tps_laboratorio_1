@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1599924964 source:c:\users\kevin\desktop\tecnicatura utn\programación1-laboratorio1\proyecto1\trabajo práctico 1\trabajo práctico 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"aguilera.h"
+
+1599694514 c:\users\kevin\desktop\tecnicatura utn\programación1-laboratorio1\proyecto1\trabajo práctico 1\trabajo práctico 1\aguilera.h
+
+1599842972 source:c:\users\kevin\desktop\tecnicatura utn\programación1-laboratorio1\proyecto1\trabajo práctico 1\trabajo práctico 1\aguilera.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"aguilera.h"
+
