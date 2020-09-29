@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1601406386 source:c:\users\kevin\desktop\tecnicatura utn\programación1-laboratorio1\proyecto1\trabajo práctico 2\tp2\trabajo práctico 2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"arrayEmployees.h"
+
+1601406386 c:\users\kevin\desktop\tecnicatura utn\programación1-laboratorio1\proyecto1\trabajo práctico 2\tp2\trabajo práctico 2\arrayemployees.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+
+1601406386 source:c:\users\kevin\desktop\tecnicatura utn\programación1-laboratorio1\proyecto1\trabajo práctico 2\tp2\trabajo práctico 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"arrayEmployees.h"
+
+1601406761 source:c:\users\kevin\desktop\tecnicatura utn\programación1-laboratorio1\proyecto1\trabajo práctico 2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"arrayEmployees.h"
+
+1601406755 c:\users\kevin\desktop\tecnicatura utn\programación1-laboratorio1\proyecto1\trabajo práctico 2\arrayemployees.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+
+1601406386 source:c:\users\kevin\desktop\tecnicatura utn\programación1-laboratorio1\proyecto1\trabajo práctico 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"arrayEmployees.h"
+
