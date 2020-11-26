@@ -536,25 +536,51 @@ int ll_sort(LinkedList* this, int (*pFunc)(void*,void*), int order)
 
 LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void*))
 {
-
-    void* element;
-    LinkedList* newLinkedList = NULL;
+    LinkedList* listaFiltrada = NULL;
+    void* auxElement = NULL;
 
     if(this != NULL && pFunc != NULL)
     {
-        newLinkedList = ll_newLinkedList();
-        if(newLinkedList != NULL)
+        listaFiltrada = ll_newLinkedList();
+        if(listaFiltrada !=NULL)
         {
-            for(int i=0; i<ll_len(this); i++)
+            for (int i = 0; i< ll_len(this); i++)
             {
-                element = ll_get(this, i);
-                if(pFunc(element))
+                auxElement =ll_get(this, i);
+
+                if (pFunc(auxElement) == 1 )
                 {
-                    ll_add(newLinkedList,element);
+                    ll_add(listaFiltrada, auxElement);
                 }
+            }
+        }
+
+    }
+    return listaFiltrada;
+}
+
+LinkedList* ll_map(LinkedList* this, void* (*pFunc)(void*))
+{
+    void* auxElement = NULL;
+    int tam;
+    LinkedList* nuevaListaBicis = NULL;
+
+    if( this != NULL && pFunc != NULL)
+    {
+        nuevaListaBicis = ll_newLinkedList();
+        tam = ll_len(this);
+
+        for (int i = 0; i < tam; i++)
+        {
+            auxElement = ll_get(this, i);
+            auxElement = pFunc(auxElement);
+            if(auxElement != NULL)
+            {
+
+                ll_add(nuevaListaBicis, auxElement);
             }
         }
     }
 
-    return newLinkedList;
+    return nuevaListaBicis;
 }
